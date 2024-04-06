@@ -1,0 +1,16 @@
+name = "prep-contact-worker"
+main = "src/index.ts"
+compatibility_date = "2024-04-06"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Set this to true for testing the PREP app locally
+CORS_ALLOW_LOCALHOST = false
+
+USE_FAKE_EMAIL_SENDING = false
+SHOULD_FAKE_EMAIL_SENDING_FAIL = false
+RECIPIENT_EMAIL = "contact@prepp.me"
+RECIPIENT_NAME = "PREP - Contacts"
+
+USE_FAKE_SITEVERIFY = false
+SHOULD_FAKE_SITEVERIFY_FAIL = false
