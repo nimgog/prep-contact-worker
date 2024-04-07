@@ -1,6 +1,6 @@
 export default {
   MAILCHANNELS_API_URL: 'https://api.mailchannels.net/tx/v1/send',
-  SENDER_EMAIL: 'contact-worker@prepp.me',
+  SENDER_EMAIL: 'contact@prepp.me',
   SENDER_NAME: 'Contact Worker | PREP',
 
   TURNSTILE_SITEVERIFY_API_URL: 'https://challenges.cloudflare.com/turnstile/v0/siteverify',
